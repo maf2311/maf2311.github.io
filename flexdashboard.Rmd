@@ -1,0 +1,51 @@
+---
+title: "Homework 4 - Instacart Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r tidying, include = FALSE}
+data("instacart")
+
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart %>% 
+  count(order_dow) %>% 
+  rename(Day = order_dow, Orders = n) %>%
+  plot_ly(x = ~Day, y = ~Orders, color = ~Day, type = "bar", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart %>%
+  count(order_hour_of_day) %>% 
+  rename(Hour = order_hour_of_day, Orders = n) %>%
+  plot_ly(
+    x = ~Hour, y = ~Orders, type = "scatter", mode = "lines", alpha = 0.5)
+```
+
+### Chart C
+
+```{r}
+
+```
