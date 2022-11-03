@@ -1,0 +1,10 @@
+---
+title: "About this website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+This website was created using RStudio, with guidance and instruction from the p8105 Data Science course at Columbia University, Mailman School of Public Health, Fall 2022. 

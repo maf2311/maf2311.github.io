@@ -1,0 +1,80 @@
+---
+title: "Resume - Mackenzie Frost"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Education 
+
+* **Columbia University, Mailman School of Public Health** - Expected May 2023
+
+* **Swarthmore College** - Class of 2021
+B.A. in Neuroscience, Minor in Computer Science
+NCAA Swarthmore Women’s Lacrosse
+
+* **University of Edinburgh** - Study Abroad, Fall 2019
+
+## Professional Experience
+
+**Dept. of Molecular Pharmacology & Therapeutics, Columbia University**
+
+Administrative Assistant
+
+Dec. 2021– Present
+
+* Coordinate annual multi-phase, national faculty recruitment efforts to support departmental expansion
+
+* Primary web liaison for department website and internal communications, and responsible for the integrity of faculty profiles in clinician/researcher database 
+
+* Support the Department Chair with additional administrative, financial, and scientific duties
+
+**Dept. of Health and Mental Hygiene, Bureau of Mental Health, Office of Research and Evaluation**
+
+HRTP Intern
+
+June 2022 – August 2022
+
+*	Conducted a two-part analysis on Young Adult Residents in NYC supportive housing programs and their engagement in mental health services from a dataset of over 10,000 records (Maven, SQL, SAS, Excel)
+
+*	Presented capstone findings and suggestions to 2 departments, and compiled extensive manual for future reference
+
+*	Created interactive, quality assurance dashboard with business intelligence software, from over 7,000 data entry errors in Supportive Housing Resident records, and created maintenance guide for ease of future use and future data captures (Tableau, SAS)
+
+*	Conducted thorough literature review to gain industry knowledge and a strong foundation for Capstone Project, and an active participant and presenter in summer Journal Club 
+
+**NYC Test + Trace Program**
+
+COVID-19 Contact Monitor and Case Investigator                      
+
+June 2020 – March 2021
+
+*	Managed 60+ COVID-19 cases daily via Salesforce dashboards to track and collect data on cases and contacts in an effort to bolster and improve the NYC COVID-19 public health response
+
+*	Coordinated access to isolation housing, financial and mental health resources, and remained empathetic in high-stress and emergency situations
+
+*	Monitored rapidly changing federal and state guidelines to ensure effective support and efficient resource use
+
+**Behavioral Pharmacology Lab, Swarthmore College**                      
+
+Research Assistant                                                  
+
+Jan. 2018 – March 2020
+
+*	Led a team of 4 and oversaw novel PTSD and related anxiety disorder treatment - animal analogue of exposure therapy combining extinction training and pharmacological intervention to prevent recovery of fear memory
+
+*	Composed extensive thesis detailing 3 coordinated experiments, analyses, and practical conclusions (Excel)
+
+## Awards
+
+* Leedom Fellowship Recipient, 2021 – Awarded in support of graduate studies
+
+* Sigma Xi Member, 2020 – Awarded for comprehensive neuroscience research
+
+* Eleanor Kay Hess Award Nominee, 2019 – Nominated as an outstanding sophomore female athlete
+
+* Swarthmore College Summer Research Fellowship, 2019 - Awarded based on academics and research proposal
+
+
