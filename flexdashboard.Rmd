@@ -15,8 +15,6 @@ library(plotly)
 
 ```{r tidying, include = FALSE}
 data("instacart")
-
-
 ```
 
 Column {data-width=650}
@@ -25,10 +23,11 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-instacart %>% 
-  count(order_dow) %>% 
-  rename(Day = order_dow, Orders = n) %>%
-  plot_ly(x = ~Day, y = ~Orders, color = ~Day, type = "bar", colors = "viridis")
+instacart %>%
+  sample_n(500) %>%
+  plot_ly(
+    x = ~department, y = ~aisle, type = "scatter", mode = "markers",
+    color = ~order_dow, alpha = 0.5)
 ```
 
 Column {data-width=350}
@@ -47,5 +46,8 @@ instacart %>%
 ### Chart C
 
 ```{r}
-
+instacart %>% 
+  count(order_dow) %>% 
+  rename(Day = order_dow, Orders = n) %>%
+  plot_ly(x = ~Day, y = ~Orders, color = ~Day, type = "bar", colors = "viridis")
 ```
